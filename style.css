@@ -1,0 +1,361 @@
+
+
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+    }
+    .pic img {
+        height: 100%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
+/* (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+    }
+    .pic img {
+        height: 110%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
+/* (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+    }
+    .pic img {
+        height: 110%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+    }
+    .pic img {
+        height: 110%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
